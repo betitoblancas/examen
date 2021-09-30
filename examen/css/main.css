@@ -1,0 +1,20 @@
+body {
+    background: fixed no-repeat url("../img/mapa.jpg");
+    /*establece el fondo (ina imagen solida que no se repetira*/
+    color: #fff;
+    /*color de las letras*/
+    padding: 0;
+    /*eñimina el padding*/
+    margin: 0;
+    /*quita el margen*/
+    height: 100vh;
+    /*ocupa el 100 por ciento de la altura de la pantalla*/
+    display: flex;
+    /*ayuda a centrar el contenido*/
+    justify-content: center;
+    /*alinea el contenido (centrado)*/
+    align-items: center;
+    /*alinea de manera centrada*/
+    flex-direction: column;
+    /*pone en columnas los elementos*/
+}
